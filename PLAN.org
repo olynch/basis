@@ -1,0 +1,26 @@
+* Requirements
+- node-webkit must run invisibly
+- must have a dbus interface
+* Stretch goals
+- Text message support
+* User-facing API
+** DBus
+*** In
+- start call
+- end call
+- mute/unmute
+*** Out
+- call status
+- contacts list
+** Sounds
+*** Notifications
+- incoming call
+- hangup
+*** Voice
+- voice input
+- voice output
+* Architecture
+** Matrix client
+*** Mostly handled by the SDK
+- created 
+** DBus server
